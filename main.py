@@ -19,7 +19,7 @@ def declare_var():
 
     maze= [[0 for i in range(64)] for j in range(27)]
     SW, SH = 1280, 720
-    start_img, end_img = pg.image.load('start.png'), pg.image.load('finesh.png')
+    start_img, end_img = pg.image.load('tools/start.png'), pg.image.load('tools/finesh.png')
     start_img, end_img = pg.transform.scale(start_img, (20, 20)), pg.transform.scale(end_img, (20, 20))
 
 
